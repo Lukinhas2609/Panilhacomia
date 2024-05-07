@@ -19,6 +19,4 @@ Nome e RA:
 * Vitor Augusto Cruz. RA: 2223204137
 * Kaue Campos Farias. RA: 2223202401
 * Kassio Aparecido Papa. RA: 2223203596
-* Rafael Henrique Sales Lima. RA: 2223203906
 * Filipe Jorge Moreira. RA: 2223202657
-* Gustavo de Paula Valentim Chagas. RA: 2223204276
