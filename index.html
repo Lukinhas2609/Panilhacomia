@@ -15,14 +15,16 @@
     }
 
     h1 {
-      font-size: 2.5em;
+      font-size: 3em;
       margin-bottom: 10px;
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(0, 255, 255, 0.8);
     }
 
     p.subtitle {
       font-size: 1.2em;
       color: #d0d0d0;
       margin-bottom: 30px;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     }
 
     .button {
@@ -35,11 +37,49 @@
       text-decoration: none;
       border-radius: 8px;
       margin: 20px 0;
+      box-shadow: 0 0 15px rgba(0, 146, 255, 0.5);
+      transition: all 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #00bcd4;
+      box-shadow: 0 0 25px rgba(0, 255, 255, 0.8);
+      transform: scale(1.05);
+    }
+
+    .section-title {
+      color: #00e5ff;
+      font-size: 2em;
+      margin: 50px 0 20px;
+      text-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
+    }
+
+    .ai-details {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .ai-card {
+      background-color: #333;
+      color: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px;
+      max-width: 300px;
+      flex: 1;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+    }
+
+    .ai-card h3 {
+      color: #00e5ff;
+      text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
     }
 
     .benefits {
       text-align: left;
-      max-width: 600px;
+      max-width: 800px;
       margin: 40px auto;
     }
 
@@ -61,6 +101,7 @@
       border-radius: 10px;
       max-width: 500px;
       margin: 40px auto;
+      box-shadow: 0 0 15px rgba(0, 146, 255, 0.5);
     }
 
     .offer h2 {
@@ -73,13 +114,77 @@
       margin: 10px 0;
     }
 
+    .testimonial {
+      background-color: #444;
+      color: white;
+      padding: 20px;
+      margin-top: 50px;
+      border-radius: 10px;
+      max-width: 700px;
+      margin: 0 auto;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    }
+
+    .testimonial h3 {
+      margin-bottom: 10px;
+      color: #00e5ff;
+    }
+
+    .testimonial p {
+      font-style: italic;
+    }
+
+    /* Urgência com contador */
+    .countdown {
+      font-size: 2.5em;
+      color: #e53935;
+      text-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+      margin: 20px 0;
+    }
+
+    .guarantee {
+      background-color: #2c2c2c;
+      color: white;
+      padding: 20px;
+      margin: 30px 0;
+      border-radius: 8px;
+      text-align: center;
+      font-size: 1.5em;
+    }
+
+    .bonus {
+      background-color: #00bcd4;
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin: 30px 0;
+    }
+
+    /* Trust Badges */
+    .trust-badges {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    .trust-badge {
+      background-color: #fff;
+      color: #000;
+      padding: 10px 15px;
+      margin: 0 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 15px rgba(0, 146, 255, 0.5);
+      font-size: 1em;
+    }
+
     @media (max-width: 600px) {
       h1 {
         font-size: 2em;
       }
 
-      .benefits li {
-        font-size: 1em;
+      .ai-card {
+        max-width: 100%;
+        margin: 15px 0;
       }
 
       .button {
@@ -91,22 +196,73 @@
 </head>
 <body>
 
-  <h1>Automatize suas tarefas com a Planilha Inteligente com IA</h1>
-  <p class="subtitle">Economize horas de trabalho com uma planilha que pensa, organiza e analisa dados sozinha para você.</p>
+  <h1>Transforme sua maneira de trabalhar com a Planilha Inteligente com IA</h1>
+  <p class="subtitle">Automatize tarefas, economize tempo e obtenha análises inteligentes de forma fácil e rápida.</p>
 
-  <a class="button" href="https://kiwify.app/r3R7C7o?afid=CNVatZz3" target="_blank">✅ Quero minha planilha agora!</a>
+  <a class="button" href="https://kiwify.app/r3R7C7o?afid=CNVatZz3" target="_blank">✅ Adquira a Planilha Agora!</a>
 
+  <!-- Urgência e Escassez -->
+  <div class="countdown">⏳ **Oferta Especial**: Só hoje! Garanta seu desconto!</div>
+
+  <!-- Garantia de Satisfação -->
+  <div class="guarantee">
+    100% Garantia de Satisfação ou Seu Dinheiro de Volta em 30 dias!
+  </div>
+
+  <!-- Bônus Exclusivo -->
+  <div class="bonus">
+    Ganhe um **E-book Exclusivo** sobre "Como Automatizar Seu Trabalho com Planilhas Inteligentes" ao comprar agora!
+  </div>
+
+  <!-- Seção de Como Funciona a IA -->
+  <div class="section-title">Como Funciona a Inteligência Artificial?</div>
+  <p>A Planilha Inteligente com IA usa algoritmos avançados para automatizar tarefas repetitivas e gerar relatórios em segundos. Veja como ela funciona:</p>
+
+  <div class="ai-details">
+    <div class="ai-card">
+      <h3>Análise de Dados Automática</h3>
+      <p>Com IA, os dados são analisados e organizados automaticamente, sem necessidade de intervenção humana.</p>
+    </div>
+
+    <div class="ai-card">
+      <h3>Geração de Relatórios</h3>
+      <p>Os relatórios são gerados automaticamente com insights valiosos e previsões baseadas nos dados inseridos.</p>
+    </div>
+
+    <div class="ai-card">
+      <h3>Previsões Inteligentes</h3>
+      <p>A IA utiliza seus dados para fazer previsões e ajudar na tomada de decisões com base em padrões detectados.</p>
+    </div>
+  </div>
+
+  <!-- Benefícios -->
   <ul class="benefits">
-    <li><strong>Automação Total</strong> — respostas automáticas e relatórios prontos</li>
-    <li><strong>Economia de Tempo</strong> — tarefas que levavam horas agora em minutos</li>
-    <li><strong>Análises Inteligentes</strong> — previsões e insights com IA integrada</li>
-    <li><strong>Fácil de Usar</strong> — não precisa ser especialista em Excel</li>
+    <li><strong>Automação Total</strong> — Elimina tarefas manuais e automatiza processos inteiros.</li>
+    <li><strong>Economia de Tempo</strong> — Evite horas de trabalho repetitivo e foque no que realmente importa.</li>
+    <li><strong>Relatórios Personalizados</strong> — Relatórios completos e insights em segundos, otimizando sua estratégia.</li>
+    <li><strong>Previsões Inteligentes</strong> — Tome decisões mais acertadas com base nas análises automatizadas pela IA.</li>
+    <li><strong>Fácil de Usar</strong> — Não é necessário ser um especialista em Excel ou programação para aproveitar a IA.</li>
   </ul>
 
+  <!-- Testemunhos -->
+  <div class="testimonial">
+    <h3>O que nossos clientes estão dizendo:</h3>
+    <p>"A planilha com IA transformou a forma como gerenciamos nossas finanças. Agora, tudo é automatizado e os relatórios são entregues instantaneamente. Vale muito a pena!"</p>
+    <p>- João Silva, Empresário</p>
+  </div>
+
+  <!-- Trust Badges -->
+  <div class="trust-badges">
+    <div class="trust-badge">💳 Pagamento Seguro</div>
+    <div class="trust-badge">🔒 Certificado SSL</div>
+    <div class="trust-badge">💯 Garantia de Satisfação</div>
+  </div>
+
+  <!-- Oferta Especial -->
   <div class="offer">
-    <h2>🎉 Oferta Especial – Só Hoje!</h2>
+    <h2>🎉 Oferta Exclusiva – Só Hoje!</h2>
     <p>De <s>R$ 197</s> por apenas <strong>R$ 67</strong></p>
-    <a class="button" href="https://kiwify.app/r3R7C7o?afid=CNVatZz3" target="_blank">Garanta sua planilha agora</a>
+    <a class="button" href="https://kiwify.app/r3R7C7o?afid=CNVatZz3" target="_blank">Garanta Sua Planilha com IA Agora!</a>
   </div>
 
 </body>
