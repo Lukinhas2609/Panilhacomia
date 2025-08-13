@@ -1,22 +1,50 @@
-# Projeto_Locadora
+# 📊 Planilha Inteligente com IA — Landing Page
 
-Locadora de veículos
+Este repositório contém o código de uma **landing page** criada para divulgar e vender uma **planilha automatizada com Inteligência Artificial (IA)**. A planilha é ideal para quem deseja **economizar tempo, automatizar tarefas e obter análises inteligentes de forma simples**.
 
-Nome da empresa: VELOZALUGUE
+---
 
-Ramo da empresa: 
-locadora de carro, de acordo com km utilizado.
+## 🔗 Acesse a Landing Page Online
 
-Serviços que a empresa oferece e as tecnologias que são utilizadas:  
-carros novos limpos e com tanque cheio, tecnologia avançada com rastreio, e aplicativos para sua locação.
+👉 [Clique aqui para visitar a página](https://lukinhas2609.github.io/Planilhacomia/)
 
+---
 
-Nome e RA: 
+## 🧠 Sobre a Planilha
 
-* Weverlen Pires Bazan. RA: 2223201203
-* Lukas Adriano Costa Damasceno. RA: 2223203652
-* Davi Rodrigues de Paiva. RA: 423201549
-* Vitor Augusto Cruz. RA: 2223204137
-* Kaue Campos Farias. RA: 2223202401
-* Kassio Aparecido Papa. RA: 2223203596
-* Filipe Jorge Moreira. RA: 2223202657
+A planilha com IA é uma ferramenta prática e poderosa, desenvolvida para pessoas e empresas que precisam:
+
+- Automatizar relatórios
+- Organizar dados automaticamente
+- Obter insights com o auxílio de IA integrada
+- Economizar horas de trabalho repetitivo
+
+---
+
+## 💡 Benefícios
+
+✔️ Automatização de tarefas  
+✔️ Interface simples e intuitiva  
+✔️ Respostas geradas com IA diretamente na planilha  
+✔️ Geração de relatórios inteligentes  
+✔️ Economia de tempo no dia a dia  
+
+---
+
+## 💸 Link de Compra
+
+Se você deseja adquirir a planilha, acesse:
+
+👉 [Comprar agora](https://kiwify.app/r3R7C7o?afid=CNVatZz3)
+
+---
+
+## 🛠️ Tecnologias Usadas
+
+- HTML
+- GitHub Pages (para hospedagem)
+
+---
+
+## 📂 Estrutura do Projeto
+
